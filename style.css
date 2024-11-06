@@ -1,0 +1,88 @@
+*{
+    box-sizing: content-box;
+}
+
+
+@font-face {
+    font-family: "Lato";
+    src: url("./assets/fonts/Lato/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("./assets/fonts/Playfair/PlayfairDisplay-Regular.ttf");
+}
+
+
+
+.lato{
+    font-family: "Lato";
+}
+
+.playfair{
+    font-family: "Playfair";
+}
+
+
+.yellow{
+    color: #FEE4A5;
+}
+
+.white{
+    color: #FAFAFA;
+}
+
+.space{
+    margin: 20px;
+}
+
+.page{
+    background-color: #1E2827;
+}
+
+
+.header{
+    height: 130px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+
+.line{
+    border: 1px solid #FEE4A5;
+}
+
+.hero{
+    margin-top: 30px;
+}
+
+.hero-title{
+    font-size: 100px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.hero-subtitle{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hero-image{
+    background-image: url("./assets/images/hero-image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 700px;
+    height: 800px;
+}
+
+.hero-description{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: flex-end;
+}
